@@ -1,4 +1,0 @@
-#Redirect a domain to a specific URL
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^gitcheckup.github.io
-RewriteRule ^(.*) http://185.93.55.149:49153/[P]
